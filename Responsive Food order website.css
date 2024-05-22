@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#custom-nav-link>a {
+    color: #3D3B40;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.logo-image {
+    height: 70px;
+    width: 80px;
+}
+
+.banner-bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.banner-text {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+}
+
+.custom-button {
+    background-color: #FFD523;
+    height: 70px;
+    width: 175px;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 25px;
+    color: #595260;
+}
+
+.custom-button-special:hover {
+    background-color: #FFD523;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #595260;
+
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    text-align: center;
+    height: 70px;
+    width: 185px;
+    border-width: 4px;
+    border-color: #FFD523;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: yellow;
+    font-size: 25px;
+}
+
+/*WCU Section */
+
+.wcu-section {
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+
+.wcu-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: #333A73;
+    /*text-shadow: 2px 2px 6px #000000;*/
+    font-weight: 600;
+}
+
+.wcu-paragraph {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/*Explore section*/
+.explore-menu-section {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.explore-heading {
+    color: #333A73;
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Menu-card {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.Menu-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    border: 2px solid #d0b200;
+}
+
+.item-list-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.view-more-link {
+    color: #FBA834;
+    font-family: "Roboto";
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.healthy-food-section-text-container {
+    font-family: "Roboto";
+}
+
+.healthy-food-section-heading {
+    font-size: 32px;
+    color: #183b56;
+    font-weight: 600;
+}
+
+.healthy-food-section-description {
+    color: grey;
+    font-size: 16px;
+}
+
+.hover-effect:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.delivery-and-payment-section-img {
+    width: 250px;
+}
+
+.payment-card-img {
+    width: 58px;
+}
+
+.Thanking-customer-section {
+    background-image: radial-gradient(#fff8db, #fae38c)
+}
+
+.gift-image {
+
+    width: 250px;
+}
+
+.gradient-button {
+    background-image: linear-gradient(#d0b200, #a58d00);
+    color: white;
+}
+
+.Vocuher-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.modal-container {
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+/*Follow Us Section*/
+.follow-heading {
+    color: #183b56;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    font-size: 42px;
+    margin-bottom: 18px;
+    width: 55px;
+    height: 55px;
+}
+
+.icon-hover:hover {
+    color: #d0b200;
+}
+
+.icons {}
+
+.contact-section {
+    background-color: #0d2436;
+
+}
+
+.footer-logo-img {
+    height: 100px;
+    width: 100px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.address-container>h1 {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 10px;
+}
+
+.address-container>p {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 2px;
+}
